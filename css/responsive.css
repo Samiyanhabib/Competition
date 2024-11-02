@@ -1,12 +1,21 @@
 @media (min-width: 0px) and (max-width: 575.98px) {
+    .partOne_text h2 {
+        font-size: 40px;
+        font-family: var(--ibm);
+        font-weight: 500;
+        color: #fff;
+        width: 75%;
+        text-align: center;
+        margin-top: 10px;
+    }
     .partOne_image img {
-        margin-top: 40px;
         position: absolute;
-        width: 395px;
-        margin-left: 75px;
-        margin-top: -284px;
+        width: 370px;
+        margin-left: 82px;
+        margin-top: -280px;
     }
     .partTwo_text h2 {
+        margin-top: 40px;
         font-size: 26px;
         font-family: var(--ibm);
         font-weight: 600;
@@ -24,7 +33,7 @@
         width: 185px;
         background: #EEEEEE;
         position: absolute;
-        right: 60%;
+        right: 53%;
         text-align: center;
         
     }
@@ -40,14 +49,18 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    .partOne_text {
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
     .partOne_image img {
-        margin-top: 40px;
         position: absolute;
-        width: 460px;
-        margin-left: 180px;
-        margin-top: -348px;
+        width: 384px;
+        margin-left: 150px;
+        margin-top: -282px;
     }
     .partTwo_text h2 {
+        margin-top: 40px;
         font-size: 26px;
         font-family: var(--ibm);
         font-weight: 600;
@@ -65,7 +78,7 @@
         width: 200px;
         background: #EEEEEE;
         position: absolute;
-        right: 63%;
+        right: 56%;
         text-align: center;
     }
     .kabbo {
