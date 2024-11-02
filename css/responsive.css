@@ -27,21 +27,28 @@
         font-weight: 400;
         text-align: center;
     }
+    .team_card {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         width: 185px;
         background: #EEEEEE;
-        position: absolute;
-        right: 53%;
+        justify-content: center;
         text-align: center;
-        
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
-    .kabbo {
-        position: absolute;
-        right: 40px;    
+    .kabbo {  
         width: 185px;
         text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
     .foot{
         display: flex;
