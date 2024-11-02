@@ -1,0 +1,13 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+/*================= input bar ==================== */
+.todohead{
+    width: 350px;
+}
+.todohead input{
+    width: 230px;
+    
+}
+h3{
+ font-size: 40px;
+}
+}
